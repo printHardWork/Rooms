@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.menu {
+    background-color: #4CAF50;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu button {
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
+#output {
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    min-height: 200px;
+}
+
+/* Decorative Shapes */
+.shape1, .shape2 {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+
+.shape1 {
+    width: 200px;
+    height: 200px;
+    background: #4CAF50;
+    top: 50px;
+    left: 50px;
+}
+
+.shape2 {
+    width: 300px;
+    height: 300px;
+    background: #FFA500;
+    bottom: 100px;
+    right: 100px;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Management System</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Room Management System</h1>
+    <div class="container">
+        <div class="menu">
+            <button onclick="showAllRooms()">Show All Rooms</button>
+            <button onclick="showAvailableRooms()">Show Available Rooms</button>
+            <button onclick="changeRoomDetails()">Change Room Details</button>
+            <button onclick="searchByRoomType()">Search by Room Type</button>
+            <button onclick="searchByCapacity()">Search by Capacity</button>
+            <button onclick="sortRoomsByPrice()">Sort Rooms by Price</button>
+            <button onclick="reserveSpecificRoom()">Reserve Specific Room</button>
+        </div>
+        <div class="content">
+            <div id="output"></div>
+        </div>
+    </div>
+    <!-- Link to the JavaScript file -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</body>
+</html>
